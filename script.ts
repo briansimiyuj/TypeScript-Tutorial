@@ -1,5 +1,15 @@
-let mixed = [1, 2, 3, 4, 'Ken', 'Brian', true, false]
+let ninja = {
 
-mixed.push('Mitchell', 5, true)
+    name: 'Mario',
 
-console.log(mixed)
+    belt: 'black',
+
+    age:  30
+
+
+}
+
+
+ninja.age = 40
+
+ninja.name = 30
