@@ -1,13 +1,23 @@
-console.log('Hello World!')  
+let character = 'Brian'
 
-const myName = 'Brian Simiyu'
+let age = 27
 
-console.log(myName) 
+let isAProgrammer = true
 
-// Compile TypeScript to JavaScript
 
-// tsc ${fileName}.ts ${fileName}.js
+/* character = 54
 
-// If the files has the same name, use ${fileName}.ts 
+age = 'Simiyu'
 
-// To auto compile use ${fileName}.ts -w
+isAProgrammer = 'yes'
+
+// Won't compile because initially character was a string, age was a number and isAProgrammer was a booleann */
+
+character = 'Simiyu'
+
+age = 54
+
+isAProgrammer = false
+
+console.log(character, age, isAProgrammer)
+
