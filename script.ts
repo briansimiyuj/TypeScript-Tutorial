@@ -1,7 +1,5 @@
-let names =['Brian', 'David', 'Eric', 'Frank', 'George']
+let mixed = [1, 2, 3, 4, 'Ken', 'Brian', true, false]
 
-names.push('Grace')
+mixed.push('Mitchell', 5, true)
 
-names.push(5)
-
-console.log(names)
+console.log(mixed)
