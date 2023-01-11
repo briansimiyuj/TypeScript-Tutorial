@@ -1,4 +1,4 @@
-var circ = function (diameter) {
-    return diameter * Math.PI;
-};
-console.log(circ(7));
+var names = ['Brian', 'David', 'Eric', 'Frank', 'George'];
+names.push('Grace');
+names.push(5);
+console.log(names);

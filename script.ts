@@ -1,8 +1,7 @@
-const circ = (diameter: number) =>{
+let names =['Brian', 'David', 'Eric', 'Frank', 'George']
 
-    return diameter * Math.PI
+names.push('Grace')
 
-}
+names.push(5)
 
-
-console.log(circ(7))
+console.log(names)
