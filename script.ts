@@ -10,4 +10,13 @@ let ninja = {
 }
 
 
-ninja.skills = 'Swim
+
+ninja = {
+
+    name: 'Yoshi',
+
+    belt: 'red',
+    
+    age: 35
+
+}
