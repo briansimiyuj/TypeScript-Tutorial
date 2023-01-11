@@ -10,6 +10,4 @@ let ninja = {
 }
 
 
-ninja.age = 40
-
-ninja.name = 30
+ninja.skills = 'Swim

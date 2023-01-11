@@ -3,5 +3,4 @@ var ninja = {
     belt: 'black',
     age: 30
 };
-ninja.age = 40;
-ninja.name = 30;
+ninja.skills = 'Swim;
