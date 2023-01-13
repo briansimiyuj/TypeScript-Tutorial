@@ -1,8 +1,6 @@
-let ninjas: string[] 
-
-let primeNumbers: number[]
+let mixed: (string | number | boolean)[] = []
 
 
-ninjas = ['Water', 'Juice', 'Afia', 'Soda']
+mixed.push(1, 'Hello', false)
 
-primeNumbers = [2, 3, 5, 7, 11, 13]
+console.log(mixed)
