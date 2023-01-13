@@ -1,7 +1,32 @@
-let UID: number | string
+let ninjasOne: object
 
-UID = 123
+ninjasOne = {
 
-UID = "abc"
+    name: 'Yoshi',
 
-UID = true // UID should be a number or a string not a boolean
+    age: 30 
+
+}
+
+
+let ninjasTwo: {
+
+    name: string,
+    
+    age: number,
+
+    beltColor: string
+
+}
+
+
+
+ninjasTwo = {
+
+    name: 'Mario',
+
+    age: 32,
+
+    beltColor:'red'
+
+}
