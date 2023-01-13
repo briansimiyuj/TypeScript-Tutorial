@@ -1,11 +1,11 @@
-var ninjasOne;
-ninjasOne = {
-    name: 'Yoshi',
-    age: 30
+var personOne = 27;
+personOne = true;
+console.log(personOne);
+personOne = 'Hello';
+console.log(personOne);
+personOne = {
+    name: 'Brian',
+    age: 27,
+    occupation: 'Software Engineer'
 };
-var ninjasTwo;
-ninjasTwo = {
-    name: 'Mario',
-    age: 32,
-    beltColor: 'red'
-};
+console.log(personOne);

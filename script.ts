@@ -1,32 +1,22 @@
-let ninjasOne: object
+let personOne: any = 27
 
-ninjasOne = {
+personOne = true
 
-    name: 'Yoshi',
+console.log(personOne)
+ 
+personOne = 'Hello'
 
-    age: 30 
-
-}
+console.log(personOne)
 
 
-let ninjasTwo: {
-
-    name: string,
+personOne = {
     
-    age: number,
+    name: 'Brian',
 
-    beltColor: string
+    age: 27,
 
-}
-
-
-
-ninjasTwo = {
-
-    name: 'Mario',
-
-    age: 32,
-
-    beltColor:'red'
+    occupation: 'Software Engineer'
 
 }
+
+console.log(personOne)
