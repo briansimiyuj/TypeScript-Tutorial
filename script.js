@@ -1,3 +1,4 @@
-var mixed = [];
-mixed.push(1, 'Hello', false);
-console.log(mixed);
+var UID;
+UID = 123;
+UID = "abc";
+UID = true; // UID should be a number or a string not a boolean

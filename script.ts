@@ -1,6 +1,7 @@
-let mixed: (string | number | boolean)[] = []
+let UID: number | string
 
+UID = 123
 
-mixed.push(1, 'Hello', false)
+UID = "abc"
 
-console.log(mixed)
+UID = true // UID should be a number or a string not a boolean
