@@ -1,12 +1,8 @@
-let character: string
+let ninjas: string[] 
 
-let age: number
-
-let isSignedIn: boolean
+let primeNumbers: number[]
 
 
-age = '30' // Will throw an error
+ninjas = ['Water', 'Juice', 'Afia', 'Soda']
 
-isSignedIn = 'yes' // Will throw an error
-
-character = 54 // Will throw an error
+primeNumbers = [2, 3, 5, 7, 11, 13]

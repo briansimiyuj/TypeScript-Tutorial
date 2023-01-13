@@ -1,6 +1,4 @@
-var character;
-var age;
-var isSignedIn;
-age = '30'; // Will throw an error
-isSignedIn = 'yes'; // Will throw an error
-character = 54; // Will throw an error
+var ninjas;
+var primeNumbers;
+ninjas = ['Water', 'Juice', 'Afia', 'Soda'];
+primeNumbers = [2, 3, 5, 7, 11, 13];
