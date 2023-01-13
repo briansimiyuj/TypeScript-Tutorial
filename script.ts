@@ -1,22 +1,5 @@
-let personOne: any = 27
+let options: any[] = []
 
-personOne = true
+options.push(5, 'mario', false)
 
-console.log(personOne)
- 
-personOne = 'Hello'
-
-console.log(personOne)
-
-
-personOne = {
-    
-    name: 'Brian',
-
-    age: 27,
-
-    occupation: 'Software Engineer'
-
-}
-
-console.log(personOne)
+console.log(options)
