@@ -1,22 +1,12 @@
-let ninja = {
+let character: string
 
-    name: 'Mario',
+let age: number
 
-    belt: 'black',
-
-    age:  30
+let isSignedIn: boolean
 
 
-}
+age = '30' // Will throw an error
 
+isSignedIn = 'yes' // Will throw an error
 
-
-ninja = {
-
-    name: 'Yoshi',
-
-    belt: 'red',
-    
-    age: 35
-
-}
+character = 54 // Will throw an error
