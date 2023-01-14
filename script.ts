@@ -1,5 +1,24 @@
-let options: any[] = []
+let ninja: { name: any, age: any}
 
-options.push(5, 'mario', false)
 
-console.log(options)
+ninja = {
+
+    name: "ninja",
+    
+    age: 30
+
+}
+
+console.log(ninja)
+
+
+
+ninja = {
+
+    name: 30,
+    
+    age: "ninja"
+
+}
+
+console.log(ninja)
