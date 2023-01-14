@@ -1,5 +1,7 @@
 "use strict";
-// Use `tsc --init` command to initialize tsconfig.json file
-// In tsconfig.json file, set "rootDir": "src" and "outDir": "public"
-// Use `tsc` command to compile TypeScript to JavaScript or `tsc -w` command to auto compile
-console.log('working');
+let greet;
+// greet = 'Hello World!' // Will throw an error because greet is not a string but a function
+greet = () => {
+    console.log('Hello again!');
+};
+greet();
