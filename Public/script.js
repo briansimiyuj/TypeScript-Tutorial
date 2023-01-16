@@ -1,5 +1,10 @@
 "use strict";
-let greet;
-greet = (name, greeting) => {
-    console.log(`${name} greeted: ${greeting}`);
+let calc;
+calc = (numOne, numTwo, action) => {
+    if (action === "add") {
+        return numOne + numTwo;
+    }
+    else {
+        return numOne - numTwo;
+    }
 };

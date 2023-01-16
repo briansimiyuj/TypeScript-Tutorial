@@ -1,8 +1,17 @@
-let greet: (a: string, b: string) => void
+let calc: (x: number, y: number, z: string) => number
 
 
-greet = (name: string, greeting: string) =>{
+calc = (numOne: number, numTwo: number, action: string) => {
 
-   console.log(`${name} greeted: ${greeting}`)
+   if (action === "add") {
+   
+      return numOne + numTwo
+      
+   }else{
 
+      return numOne - numTwo
+            
+
+   }
+   
 }
