@@ -1,6 +1,8 @@
-const add = (a: number, b: number) =>{
+const add = (a: number, b: number, c?: number | string) =>{
 
    console.log(a + b)
+
+   console.log(c)
 
 }
 

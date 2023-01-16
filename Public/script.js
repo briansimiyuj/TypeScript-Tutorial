@@ -1,5 +1,6 @@
 "use strict";
-const add = (a, b) => {
+const add = (a, b, c) => {
     console.log(a + b);
+    console.log(c);
 };
 add(5, 10);
