@@ -1,7 +1,19 @@
-const minus = (a: number, b :number) =>{
+type stringOrNumber = string | number
 
-   return a + b   // returns a number 
+type objectWithName = {name: string, uid: stringOrNumber}
+
+
+
+const logDetails = (uid: stringOrNumber, item: string) =>{
+
+   console.log(`${item} has a uid of ${uid}`)
 
 }
 
-let result = minus(10, 7)  // returns a number
+
+
+const greet = (user: objectWithName) =>{
+
+   console.log(`${user.name} says hello`)
+
+}
