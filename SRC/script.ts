@@ -1,17 +1,15 @@
-let calc: (x: number, y: number, z: string) => number
+let logDetails: (object: {
+
+   name: string,
+
+   age: number
+
+}) => void
 
 
-calc = (numOne: number, numTwo: number, action: string) => {
 
-   if (action === "add") {
-   
-      return numOne + numTwo
-      
-   }else{
+logDetails = (ninja: {name: string, age: number}) => {
 
-      return numOne - numTwo
-            
+   console.log(`${ninja.name} is ${ninja.age} years old`)
 
-   }
-   
 }
