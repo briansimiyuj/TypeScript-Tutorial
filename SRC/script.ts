@@ -1,13 +1,7 @@
-let greet: Function
+const add = (a: number, b: number) =>{
 
-// greet = 'Hello World!' // Will throw an error because greet is not a string but a function
-
-
-greet = () =>{
-
-   console.log('Hello again!')
+   console.log(a + b)
 
 }
 
-
-greet()
+add(5, 10)

@@ -1,7 +1,5 @@
 "use strict";
-let greet;
-// greet = 'Hello World!' // Will throw an error because greet is not a string but a function
-greet = () => {
-    console.log('Hello again!');
+const add = (a, b) => {
+    console.log(a + b);
 };
-greet();
+add(5, 10);
