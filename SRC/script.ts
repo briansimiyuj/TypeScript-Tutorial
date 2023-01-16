@@ -1,15 +1,7 @@
-let logDetails: (object: {
+const anchor = document.querySelector("a")
 
-   name: string,
+if (anchor) {
 
-   age: number
-
-}) => void
-
-
-
-logDetails = (ninja: {name: string, age: number}) => {
-
-   console.log(`${ninja.name} is ${ninja.age} years old`)
+   console.log(anchor.href)
 
 }
