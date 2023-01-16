@@ -1,3 +1,5 @@
-const anchor = document.querySelector("a")!
+// const form = document.querySelector("form")!
 
-console.log(anchor.href)
+const form = document.querySelector(".new-item-form") as HTMLFormElement
+
+console.log(form.children)
