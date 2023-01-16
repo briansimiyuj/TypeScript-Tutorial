@@ -1,9 +1,7 @@
-const add = (a: number, b: number, c: number | string = 10) =>{
+const minus = (a: number, b :number) =>{
 
-   console.log(a + b)
-
-   console.log(c)
+   return a + b   // returns a number 
 
 }
 
-add(5, 10)
+let result = minus(10, 7)  // returns a number
