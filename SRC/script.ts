@@ -33,7 +33,13 @@ const invOne = new Invoice('Brian', 'App Development', 1000000)
 const invTwo = new Invoice('Simiyu', 'System Development', 2500000)
 
 
-console.log(invOne, invTwo)
+let invoices: Invoice[] = []
+
+invoices.push(invOne)
+
+invoices.push(invTwo)
+
+console.log(invoices)
 
 
 
