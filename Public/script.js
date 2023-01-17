@@ -15,7 +15,6 @@ let invoices = [];
 invoices.push(invOne);
 invoices.push(invTwo);
 invoices.forEach((invoice) => {
-    this.client = 'Mike';
     console.log(invoice.client, invoice.amount, invoice.format());
 });
 const form = document.querySelector(".new-item-form"), type = document.querySelector("#type"), toFrom = document.querySelector("#tofrom"), details = document.querySelector("#details"), amount = document.querySelector("#amount");

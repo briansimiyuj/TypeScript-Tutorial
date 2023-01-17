@@ -1,21 +1,15 @@
 class Invoice{
 
-   readonly client: string       // Can't change the value
+   constructor(
 
-   private details: string     
+      readonly client: string,
 
-   amount: number      
+      private details: string,
+
+      public amount: number
 
 
-   constructor(client: string, details: string, amount: number){
-
-      this.client = client
-      
-      this.details = details
-
-      this.amount = amount
-
-   }
+   ){}
 
 
    format(){
@@ -42,8 +36,6 @@ invoices.push(invTwo)
 
 
 invoices.forEach((invoice) =>{
-
-   this.client = 'Mike'
 
    console.log(invoice.client, invoice.amount, invoice.format()) 
 
