@@ -2,9 +2,9 @@ class Invoice{
 
    client: string
 
-   details: string
+   private details: string       //Private properties are only accessible inside a class
 
-   amount: number       //All Properties are public by default
+   amount: number      
 
 
    constructor(client: string, details: string, amount: number){
@@ -43,7 +43,7 @@ invoices.push(invTwo)
 
 invoices.forEach((invoice) =>{
 
-   console.log(invoice.client, invoice.details, invoice.amount, invoice.format()) 
+   console.log(invoice.client, invoice.amount, invoice.format()) 
 
 })
 
