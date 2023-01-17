@@ -1,8 +1,8 @@
 class Invoice{
 
-   client: string
+   readonly client: string       // Can't change the value
 
-   private details: string       //Private properties are only accessible inside a class
+   private details: string     
 
    amount: number      
 
@@ -42,6 +42,8 @@ invoices.push(invTwo)
 
 
 invoices.forEach((invoice) =>{
+
+   this.client = 'Mike'
 
    console.log(invoice.client, invoice.amount, invoice.format()) 
 
