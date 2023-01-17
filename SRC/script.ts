@@ -1,4 +1,42 @@
-// const form = document.querySelector("form")!
+class Invoice{
+
+   client: string
+
+   details: string
+
+   amount: number
+
+
+   constructor(client: string, details: string, amount: number){
+
+      this.client = client
+      
+      this.details = details
+
+      this.amount = amount
+
+   }
+
+
+   format(){
+
+      return `${this.client} owes sh${this.amount} for ${this.details}`
+
+   }
+
+}
+
+
+
+const invOne = new Invoice('Brian', 'App Development', 1000000)
+
+const invTwo = new Invoice('Simiyu', 'System Development', 2500000)
+
+
+console.log(invOne, invTwo)
+
+
+
 
 const form = document.querySelector(".new-item-form") as HTMLFormElement,
 
