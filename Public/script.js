@@ -14,7 +14,9 @@ const invTwo = new Invoice('Simiyu', 'System Development', 2500000);
 let invoices = [];
 invoices.push(invOne);
 invoices.push(invTwo);
-console.log(invoices);
+invoices.forEach((invoice) => {
+    console.log(invoice.client, invoice.details, invoice.amount, invoice.format());
+});
 const form = document.querySelector(".new-item-form"), type = document.querySelector("#type"), toFrom = document.querySelector("#tofrom"), details = document.querySelector("#details"), amount = document.querySelector("#amount");
 form.addEventListener("submit", (e) => {
     e.preventDefault();

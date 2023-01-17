@@ -4,7 +4,7 @@ class Invoice{
 
    details: string
 
-   amount: number
+   amount: number       //All Properties are public by default
 
 
    constructor(client: string, details: string, amount: number){
@@ -39,7 +39,13 @@ invoices.push(invOne)
 
 invoices.push(invTwo)
 
-console.log(invoices)
+
+
+invoices.forEach((invoice) =>{
+
+   console.log(invoice.client, invoice.details, invoice.amount, invoice.format()) 
+
+})
 
 
 
