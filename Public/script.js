@@ -1,3 +1,11 @@
+import { Payment } from './classes/payments.js';
+let docOne;
+let docTwo;
+docOne = new Invoice('Mike', 'Web work', 25000);
+docTwo = new Payment('Brian', 'App Work', 20000);
+let docs = [];
+docs.push(docOne, docTwo);
+console.log(docs);
 const me = {
     name: 'Mike',
     age: 20,

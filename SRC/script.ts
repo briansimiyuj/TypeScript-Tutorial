@@ -1,3 +1,28 @@
+import { Payment } from './classes/payments.js'
+
+import { HasFormatter } from './interfaces/hasFormatter.js'
+
+
+
+let docOne: HasFormatter
+
+let docTwo: HasFormatter
+
+
+docOne = new Invoice('Mike', 'Web work', 25000)
+
+docTwo = new Payment('Brian', 'App Work', 20000)
+
+
+let docs: HasFormatter[] = []
+
+docs.push(docOne, docTwo)
+
+console.log(docs)
+
+
+
+
 interface isPerson{
 
    name: string
