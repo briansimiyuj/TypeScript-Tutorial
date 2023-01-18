@@ -3,55 +3,9 @@ import { Payment } from './classes/payments.js'
 import { HasFormatter } from './interfaces/hasFormatter.js'
 
 
+import { Invoice } from './classes/invoice.js'
 
-
-interface isPerson{
-
-   name: string
-
-   age: number
-
-   speak(a: string): void
-
-   spend(a: number): number
-
-}
-
-
-const me: isPerson = {
-
-   name: 'Mike',
-   
-   age: 20,
-
-   speak(text: string): void{
-
-      console.log(text)
-
-   },
-
-
-   spend(amount: number): number {
-
-      console.log('I spend', amount)
-
-      return amount
-
-   }
-
-}
-
-
-
-const greetPerson = (person: isPerson) =>{
-
-   console.log('Hello', person.name)
-
-}
-
-greetPerson(me)
-
-import { Invoice } from './classes/invoice.js';
+import { ListTemplate } from './classes/lisTemplate.js'
 
 
 
@@ -66,6 +20,14 @@ const form = document.querySelector(".new-item-form") as HTMLFormElement,
    details = document.querySelector("#details") as HTMLInputElement,
 
    amount = document.querySelector("#amount") as HTMLInputElement
+
+
+
+// List Template Instance
+
+const ul = document.querySelector("ul")!
+
+const list = new ListTemplate(ul)
 
 
 
@@ -85,6 +47,9 @@ form.addEventListener("submit", (e: Event) =>{
       doc = new Payment(toFrom.value, details.value, amount.valueAsNumber)
 
    }
+
+
+   list.render(doc, type.value, 'end')
 
 
    console.log(doc)
