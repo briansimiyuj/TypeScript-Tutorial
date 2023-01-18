@@ -13,7 +13,7 @@ const greetPerson = (person) => {
     console.log('Hello', person.name);
 };
 greetPerson(me);
-import { Invoice } from './invoice.js';
+import { Invoice } from './classes/invoice.js';
 const invOne = new Invoice('Brian', 'App Development', 1000000);
 const invTwo = new Invoice('Simiyu', 'System Development', 2500000);
 let invoices = [];

@@ -44,7 +44,7 @@ const greetPerson = (person: isPerson) =>{
 
 greetPerson(me)
 
-import { Invoice } from './invoice.js';
+import { Invoice } from './classes/invoice.js';
 
 
 const invOne = new Invoice('Brian', 'App Development', 1000000)
