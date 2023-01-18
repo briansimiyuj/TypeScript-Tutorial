@@ -4,24 +4,6 @@ import { HasFormatter } from './interfaces/hasFormatter.js'
 
 
 
-let docOne: HasFormatter
-
-let docTwo: HasFormatter
-
-
-docOne = new Invoice('Mike', 'Web work', 25000)
-
-docTwo = new Payment('Brian', 'App Work', 20000)
-
-
-let docs: HasFormatter[] = []
-
-docs.push(docOne, docTwo)
-
-console.log(docs)
-
-
-
 
 interface isPerson{
 
@@ -72,25 +54,6 @@ greetPerson(me)
 import { Invoice } from './classes/invoice.js';
 
 
-const invOne = new Invoice('Brian', 'App Development', 1000000)
-
-const invTwo = new Invoice('Simiyu', 'System Development', 2500000)
-
-
-let invoices: Invoice[] = []
-
-invoices.push(invOne)
-
-invoices.push(invTwo)
-
-
-
-invoices.forEach((invoice) =>{
-
-   console.log(invoice.client, invoice.amount, invoice.format()) 
-
-})
-
 
 
 
@@ -110,16 +73,20 @@ form.addEventListener("submit", (e: Event) =>{
 
    e.preventDefault()
 
-   console.log(
 
-      type.value,
+   let doc: HasFormatter
 
-      toFrom.value,
+   if (type.value === "invoice"){
 
-      details.value,
+      doc = new Invoice(toFrom.value, details.value, amount.valueAsNumber)
+      
+   }else{
 
-      amount.valueAsNumber
+      doc = new Payment(toFrom.value, details.value, amount.valueAsNumber)
 
-   )
+   }
+
+
+   console.log(doc)
 
 })
