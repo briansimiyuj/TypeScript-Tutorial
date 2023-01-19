@@ -66,7 +66,7 @@ const addUID = <T extends {name: string}>(obj: T) => {
 
 let docOne = addUID({
 
-   // name: 'John Doe',
+   name: 'John Doe',
 
    age: 50
 
@@ -74,4 +74,41 @@ let docOne = addUID({
 
 
 
-console.log(docOne.age)
+
+
+interface Resource<T> {
+
+
+   uid: number
+
+   resourceName: string
+
+   data: T
+
+}
+
+
+const docThree: Resource<object> ={
+
+   uid: 1,
+
+   resourceName: 'user',
+
+   data: {name: 'John Doe', age: 50}
+   
+
+}
+
+
+const docFour: Resource<string[]> ={
+
+   uid: 1,
+
+   resourceName: 'Shopping List',
+
+   data: ['Item 1', 'Item 2', 'Item 3']
+
+}
+
+
+console.log(docThree, docFour)
