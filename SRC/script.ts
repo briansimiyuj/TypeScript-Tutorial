@@ -35,16 +35,21 @@ form.addEventListener("submit", (e: Event) =>{
 
    e.preventDefault()
 
+   let values: [string, string, number]
+
+   values = [toFrom.value, details.value, amount.valueAsNumber]
+
+
 
    let doc: HasFormatter
 
    if (type.value === "invoice"){
 
-      doc = new Invoice(toFrom.value, details.value, amount.valueAsNumber)
+      doc = new Invoice(...values)
       
    }else{
 
-      doc = new Payment(toFrom.value, details.value, amount.valueAsNumber)
+      doc = new Payment(...values)
 
    }
 
@@ -52,26 +57,3 @@ form.addEventListener("submit", (e: Event) =>{
    list.render(doc, type.value, 'end')
 
 })
-
-
-
-
-
-let arr = ['Derick', 40, true]
-
-arr[0] = false
-
-arr[1] = 'Arnold'
-
-arr[2] = 32
-
-
-let tup: [string, number, boolean] = ['Derick', 40, true]  // Types positions are fixed
-
-/* tup[0] = false // Won't work because tup[0] must be a string */
-
-
-
-let student: [string, number]
-
-student = ['Abigael', 1523378]
