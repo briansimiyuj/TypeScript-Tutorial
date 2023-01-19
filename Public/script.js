@@ -24,14 +24,22 @@ let docOne = addUID({
     name: 'John Doe',
     age: 50
 });
+var ResourceType;
+(function (ResourceType) {
+    ResourceType[ResourceType["BOOK"] = 0] = "BOOK";
+    ResourceType[ResourceType["AUTHOR"] = 1] = "AUTHOR";
+    ResourceType[ResourceType["FILM"] = 2] = "FILM";
+    ResourceType[ResourceType["DIRECTOR"] = 3] = "DIRECTOR";
+    ResourceType[ResourceType["PERSON"] = 4] = "PERSON";
+})(ResourceType || (ResourceType = {}));
+const docTwo = {
+    uid: 1,
+    resourceName: ResourceType.BOOK,
+    data: { title: 'Name of the wind' }
+};
 const docThree = {
-    uid: 1,
-    resourceName: 'user',
-    data: { name: 'John Doe', age: 50 }
+    uid: 10,
+    resourceName: ResourceType.AUTHOR,
+    data: { name: 'Yoshi' }
 };
-const docFour = {
-    uid: 1,
-    resourceName: 'Shopping List',
-    data: ['Item 1', 'Item 2', 'Item 3']
-};
-console.log(docThree, docFour);
+console.log(docTwo, docThree);

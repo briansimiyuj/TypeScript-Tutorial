@@ -76,39 +76,43 @@ let docOne = addUID({
 
 
 
+
+enum ResourceType { BOOK, AUTHOR, FILM, DIRECTOR, PERSON }
+
+
+
 interface Resource<T> {
 
 
    uid: number
 
-   resourceName: string
+   resourceName: ResourceType
 
    data: T
 
 }
 
 
+const docTwo: Resource<object> ={
+
+   uid: 1,
+
+   resourceName: ResourceType.BOOK,
+
+   data: {title: 'Name of the wind'}
+
+}
+
+
 const docThree: Resource<object> ={
 
-   uid: 1,
+   uid: 10,
 
-   resourceName: 'user',
+   resourceName: ResourceType.AUTHOR,
 
-   data: {name: 'John Doe', age: 50}
-   
-
-}
-
-
-const docFour: Resource<string[]> ={
-
-   uid: 1,
-
-   resourceName: 'Shopping List',
-
-   data: ['Item 1', 'Item 2', 'Item 3']
+   data: {name: 'Yoshi'}
 
 }
 
 
-console.log(docThree, docFour)
+console.log(docTwo, docThree)
