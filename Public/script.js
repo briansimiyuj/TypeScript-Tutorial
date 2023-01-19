@@ -15,5 +15,13 @@ form.addEventListener("submit", (e) => {
         doc = new Payment(toFrom.value, details.value, amount.valueAsNumber);
     }
     list.render(doc, type.value, 'end');
-    console.log(doc);
 });
+const addUID = (obj) => {
+    let uid = Math.floor(Math.random() * 100);
+    return Object.assign(Object.assign({}, obj), { uid });
+};
+let docOne = addUID({
+    name: 'John Doe',
+    age: 50
+});
+console.log(docOne.age);

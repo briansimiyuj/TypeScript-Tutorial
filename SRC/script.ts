@@ -51,7 +51,26 @@ form.addEventListener("submit", (e: Event) =>{
 
    list.render(doc, type.value, 'end')
 
+})
 
-   console.log(doc)
+
+
+
+const addUID = <T>(obj: T) => {
+
+   let uid = Math.floor(Math.random() * 100)
+   
+   return {...obj, uid}
+}
+
+
+let docOne = addUID({
+
+   name: 'John Doe',
+
+   age: 50
 
 })
+
+
+console.log(docOne.age)
