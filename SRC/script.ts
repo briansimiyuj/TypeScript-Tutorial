@@ -56,63 +56,22 @@ form.addEventListener("submit", (e: Event) =>{
 
 
 
-const addUID = <T extends {name: string}>(obj: T) => {
 
-   let uid = Math.floor(Math.random() * 100)
-   
-   return {...obj, uid}
-}
+let arr = ['Derick', 40, true]
+
+arr[0] = false
+
+arr[1] = 'Arnold'
+
+arr[2] = 32
 
 
-let docOne = addUID({
+let tup: [string, number, boolean] = ['Derick', 40, true]  // Types positions are fixed
 
-   name: 'John Doe',
-
-   age: 50
-
-})
+/* tup[0] = false // Won't work because tup[0] must be a string */
 
 
 
+let student: [string, number]
 
-
-
-enum ResourceType { BOOK, AUTHOR, FILM, DIRECTOR, PERSON }
-
-
-
-interface Resource<T> {
-
-
-   uid: number
-
-   resourceName: ResourceType
-
-   data: T
-
-}
-
-
-const docTwo: Resource<object> ={
-
-   uid: 1,
-
-   resourceName: ResourceType.BOOK,
-
-   data: {title: 'Name of the wind'}
-
-}
-
-
-const docThree: Resource<object> ={
-
-   uid: 10,
-
-   resourceName: ResourceType.AUTHOR,
-
-   data: {name: 'Yoshi'}
-
-}
-
-
-console.log(docTwo, docThree)
+student = ['Abigael', 1523378]
