@@ -21,8 +21,7 @@ const addUID = (obj) => {
     return Object.assign(Object.assign({}, obj), { uid });
 };
 let docOne = addUID({
-    name: 'John Doe',
+    // name: 'John Doe',
     age: 50
 });
-let doctTwo = addUID('John Doe');
 console.log(docOne.age);
