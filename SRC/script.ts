@@ -56,7 +56,7 @@ form.addEventListener("submit", (e: Event) =>{
 
 
 
-const addUID = <T>(obj: T) => {
+const addUID = <T extends object>(obj: T) => {
 
    let uid = Math.floor(Math.random() * 100)
    
@@ -72,5 +72,7 @@ let docOne = addUID({
 
 })
 
+
+let doctTwo = addUID('John Doe')
 
 console.log(docOne.age)

@@ -24,4 +24,5 @@ let docOne = addUID({
     name: 'John Doe',
     age: 50
 });
+let doctTwo = addUID('John Doe');
 console.log(docOne.age);
