@@ -3,3 +3,19 @@ Use `npm i -g TypeScript` command to install TypeScript
 Use `tsc -v` command to check the TypeScript version
 
 Use `tsc ${fileName}.ts` to compile TypeScript to JavaScript
+
+Now you can use `tsc` to compile TypeScript to JavaScript
+
+Use `tsc --init` command to initialize tsconfig file  
+
+In the tsconfig file set the following:
+
+    "target":  "ES2016"
+
+    "rootDir": "./src",
+
+    "outDir": "./dist" or "./public",
+
+    "removeComments": true,
+
+    "noEmitOnError": true,
