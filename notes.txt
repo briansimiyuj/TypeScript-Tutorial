@@ -1,3 +1,5 @@
 Use `npm i -g TypeScript` command to install TypeScript
 
 Use `tsc -v` command to check the TypeScript version
+
+Use `tsc ${fileName}.ts` to compile TypeScript to JavaScript
