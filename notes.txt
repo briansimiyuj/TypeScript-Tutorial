@@ -3,3 +3,10 @@ Debugging TypeScript
 In tsc.config file, enable
 
     "sourceMap": true
+
+
+Create a new file called launch.json of the debug tab 
+
+add the following
+
+    "preLaunchTask": "tsc: build - tsconfig.json"
