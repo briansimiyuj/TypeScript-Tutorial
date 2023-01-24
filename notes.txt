@@ -1,1 +1,7 @@
-Enums helps us to create constants that are related
+In functions we explicitly set the return type as shown in script.ts ln 1 col 40
+
+In tsconfig.json turn on the following
+
+    "noUnusedParameters": true, this will make sure we use the parameters in the function
+
+    "noImplicitReturns": true,

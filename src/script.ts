@@ -1,13 +1,13 @@
-/* const small = 1,
+function calculateTax(income: number): number{
 
-    medium = 2,
+   if (income < 50_000){
 
-    large = 3 */
+    return income * 1.2
 
+   }else{
 
-const enum Size { Small = 1, Medium, Large }
+    return income * 1.3
 
-let mySize: Size = Size.Medium
+   }
 
-console.log(mySize)
-
+}
