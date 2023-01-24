@@ -1,3 +1,1 @@
-Tuples are special type of mixed arrays where the  positions of the elements within the array correspond to the type of the elements. For example, in line 1 of script.ts, we have a mixed array of users. We have explicitly specified the types of the elements that should be in users which are number and string. We further stated that numbers should before strings as indicated in script.ts, therefore we can't have users = ['Brian', 650396].
-
-Tuples are best for 2 elements or a pair of elements
+Enums helps us to create constants that are related
