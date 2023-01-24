@@ -19,3 +19,5 @@ In the tsconfig file set the following:
     "removeComments": true,
 
     "noEmitOnError": true,
+
+    "noImplicitAny": true,
