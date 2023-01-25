@@ -1,13 +1,16 @@
-function calculateTax(income: number): number{
+let employee:{
 
-   if (income < 50_000){
+   id: number,
 
-    return income * 1.2
+   name: string
 
-   }else{
+} = {
 
-    return income * 1.3
+      id: 1,
+
+      name: ''
 
    }
 
-}
+
+employee.name = 'Mike'
