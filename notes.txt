@@ -1,0 +1,1 @@
+Use `tsc ${fileName}.ts` to compile TypeScript file into JavaScript file
