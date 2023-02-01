@@ -1,1 +1,1 @@
-If the value of the variable is set, TypeScript will automatically infer the type of the variable based on its value. Refer to script.ts    
+If the value of the variable is not set, TypeScript will infer the type of that variable to any

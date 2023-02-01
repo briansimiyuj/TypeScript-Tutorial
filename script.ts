@@ -1,11 +1,10 @@
-let greetings = 'Hello Brian'
+let hero
 
-console.log(greetings)
+function getHero(){
 
-let userID = 334455
+   return 'Peter Kawa'
 
-console.log(userID)
+}   
 
-let isMarried = true
 
-console.log(isMarried)
+hero = getHero()
