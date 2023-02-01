@@ -1,1 +1,1 @@
-If the value of the variable is not set, TypeScript will infer the type of that variable to any, in this case we have to set the variable type ourselves
+In functions the arguments must have a type

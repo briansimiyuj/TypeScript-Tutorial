@@ -1,10 +1,16 @@
-let hero: string
+function addTwo(num: number){
 
-function getHero(){
+   return num + 2
 
-   return 'Peter Kawa'
+}
 
-}   
+console.log(addTwo(5))
 
 
-hero = getHero()
+function getUpper(text: string){
+
+   return text.toUpperCase()
+
+}
+
+console.log(getUpper('Hi there!'))

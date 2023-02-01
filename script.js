@@ -1,5 +1,8 @@
-var hero;
-function getHero() {
-    return 'Peter Kawa';
+function addTwo(num) {
+    return num + 2;
 }
-hero = getHero();
+console.log(addTwo(5));
+function getUpper(text) {
+    return text.toUpperCase();
+}
+console.log(getUpper('Hi there!'));
