@@ -1,11 +1,11 @@
-let user = {
+let greetings: string = 'Hello Brian'
 
-    name: 'John',
+console.log(greetings)
 
-    age: 15
+let userID: number = 334455
 
-}
+console.log(userID)
 
-console.log('Brian')
+let isMarried: boolean = true
 
-console.log(user.name)
+console.log(isMarried)
