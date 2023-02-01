@@ -1,4 +1,4 @@
-let hero
+let hero: string
 
 function getHero(){
 
