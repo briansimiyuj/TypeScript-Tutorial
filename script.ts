@@ -14,3 +14,13 @@ function getUpper(text: string){
 }
 
 console.log(getUpper('Hi there!'))
+
+
+function signUpUser(name: string, email: string, isPaid: boolean){
+
+
+   
+}
+
+
+signUpUser('Mike', 'mike@gmail.com', true)

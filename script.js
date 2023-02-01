@@ -6,3 +6,6 @@ function getUpper(text) {
     return text.toUpperCase();
 }
 console.log(getUpper('Hi there!'));
+function signUpUser(name, email, isPaid) {
+}
+signUpUser('Mike', 'mike@gmail.com', true);

@@ -1,1 +1,1 @@
-In functions the arguments must have a type
+If a function has n number of arguments, when you call the function with n parameters as shown in signUpUser function in script.ts
