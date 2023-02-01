@@ -1,1 +1,1 @@
-Use `tsc ${fileName}.ts` to compile TypeScript file into JavaScript file
+If the value of the variable is set, TypeScript will automatically infer the type of the variable based on its value. Refer to script.ts    

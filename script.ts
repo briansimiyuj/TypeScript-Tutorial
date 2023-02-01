@@ -1,11 +1,11 @@
-let greetings: string = 'Hello Brian'
+let greetings = 'Hello Brian'
 
 console.log(greetings)
 
-let userID: number = 334455
+let userID = 334455
 
 console.log(userID)
 
-let isMarried: boolean = true
+let isMarried = true
 
 console.log(isMarried)
