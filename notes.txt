@@ -1,1 +1,1 @@
-If a function has n number of arguments, when you call the function with n parameters as shown in signUpUser function in script.ts
+One can specify the type of return value is expected in a function

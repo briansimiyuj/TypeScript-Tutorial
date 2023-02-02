@@ -1,7 +1,7 @@
 function addTwo(num) {
-    return num + 2;
+    return 'Hello';
 }
-console.log(addTwo(5));
+var myVal = addTwo(5);
 function getUpper(text) {
     return text.toUpperCase();
 }

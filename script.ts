@@ -1,10 +1,10 @@
-function addTwo(num: number){
+function addTwo(num: number): number {
 
-   return num + 2
+   return 'Hello'
 
 }
 
-console.log(addTwo(5))
+let myVal = addTwo(5)
 
 
 function getUpper(text: string){
