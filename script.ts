@@ -1,18 +1,18 @@
-const User = {
+function createCourse():{
 
-   name: 'Brian',
+   name: string,
 
-   email: 'brian@techfybiz.co.ke',
+   price: number
 
-   isActive: true
+}{
+
+   return {
+
+      name: 'Computer Science',
+
+      price: 200000
+
+   }
 
 }
 
-
-function createUser({name: string, isPaid: boolean}) {
-
-
-
-}
-
-createUser({name: 'Brian', isPaid: true})
