@@ -1,18 +1,20 @@
-function createCourse():{
+type User = {
 
-   name: string,
+   name: string
 
-   price: number
+   email: string
 
-}{
-
-   return {
-
-      name: 'Computer Science',
-
-      price: 200000
-
-   }
+   isActive: boolean
 
 }
 
+
+
+function createUser(user:User){
+
+   
+
+}
+
+
+createUser({name: '', email: '', isActive: false})
