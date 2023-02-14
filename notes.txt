@@ -1,1 +1,1 @@
-To define arrays use `const variableName: Array<type> = []
+TypeScript is treating `number | string` as a new type

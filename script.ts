@@ -1,6 +1,14 @@
 function getDBid(id: number | string){
 
-   console.log(`DB id is: ${id}`)
+   if (typeof id ===  'string'){
+
+      id.toLowerCase()
+
+   }else{
+
+      id - 2
+
+   }
 
 }
 
