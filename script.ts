@@ -1,16 +1,8 @@
-const heroPower: Array<number> = []
+let score: number | string = 33
 
+score = 45
 
-type User = {
+score = '55'
 
-   name: string,
+score = true
 
-   isActive: boolean
-
-}
-
-
-const allUsers: User[] = []
-
-
-allUsers.push({name: '', isActive: true})
