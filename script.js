@@ -1,8 +1,5 @@
-var brian = {
-    name: 'Simiyu',
-    id: 3232
-};
-brian = {
-    userName: 'SimiyuBrian',
-    id: 650396
-};
+function getDBid(id) {
+    console.log("DB id is: ".concat(id));
+}
+getDBid(7);
+getDBid('7');

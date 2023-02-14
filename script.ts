@@ -1,34 +1,9 @@
-type User = {
+function getDBid(id: number | string){
 
-   name: string
-
-   id: number   
+   console.log(`DB id is: ${id}`)
 
 }
 
+getDBid(7)
 
-type Admin = {
-
-   userName: string
-
-   id: number   
-
-}
-
-
-let brian: User | Admin = {
-
-   name: 'Simiyu',
-
-   id: 3232
-
-}
-
-
-brian = {
-
-   userName: 'SimiyuBrian',
-
-   id: 650396
-
-}
+getDBid('7')
