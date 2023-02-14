@@ -1,4 +1,8 @@
-var score = 33;
-score = 45;
-score = '55';
-score = true;
+var brian = {
+    name: 'Simiyu',
+    id: 3232
+};
+brian = {
+    userName: 'SimiyuBrian',
+    id: 650396
+};

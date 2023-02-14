@@ -1,8 +1,34 @@
-let score: number | string = 33
+type User = {
 
-score = 45
+   name: string
 
-score = '55'
+   id: number   
 
-score = true
+}
 
+
+type Admin = {
+
+   userName: string
+
+   id: number   
+
+}
+
+
+let brian: User | Admin = {
+
+   name: 'Simiyu',
+
+   id: 3232
+
+}
+
+
+brian = {
+
+   userName: 'SimiyuBrian',
+
+   id: 650396
+
+}
