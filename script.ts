@@ -1,5 +1,7 @@
 type User = {
 
+   readonly _id: string
+
    name: string
 
    email: string
@@ -10,11 +12,20 @@ type User = {
 
 
 
-function createUser(user:User){
+let myUser: User = {
 
-   
+   _id: '5c8d0c505653de3985aa0ffd',
+
+   name: 'Martin',
+
+   email: 'martin@gmail.com',
+
+   isActive: false
 
 }
 
+myUser.email = 'peter@gmail.com'
 
-createUser({name: '', email: '', isActive: false})
+myUser.name = 'Peter'
+
+myUser._id = '5c8d0c505653de3985aa0ffd'
