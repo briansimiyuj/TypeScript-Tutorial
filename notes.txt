@@ -1,1 +1,1 @@
-Readonly properties cannot be changed
+To define arrays use `const variableName: Array<type> = []
