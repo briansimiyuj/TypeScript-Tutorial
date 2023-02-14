@@ -1,21 +1,8 @@
-type cardNumber = {
+const actors: string[] = []
 
-   number: string
-
-}
+const actorsRating: number[] = []
 
 
+actors.push('Njoro', 'Nana', 'Fred')
 
-type cardDate = {
-
-   date: string
-
-}
-
-
-
-type carDetails = cardNumber & cardDate & {
-
-   cvv: number
-
-}
+actorsRating.push(1, 2, 3)
