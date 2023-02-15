@@ -2,4 +2,7 @@ let student: [string, number, boolean]
 
 student = ['Brian', 650396, false]
 
-student = [true, 'Brian', 650396]
+
+let rgb: [number, number, number]
+
+rgb = [256, 256, 256]
