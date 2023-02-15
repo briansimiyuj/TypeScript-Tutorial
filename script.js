@@ -1,1 +1,3 @@
-var data = [1, 2, 3, 4, 5, 6, 7, 8, '4', true];
+var student;
+student = ['Brian', 650396, false];
+student = [true, 'Brian', 650396];

@@ -1,1 +1,1 @@
-TypeScript is treating `number | string` as a new type
+Tuples are special types of array where the order of the elements types matters
