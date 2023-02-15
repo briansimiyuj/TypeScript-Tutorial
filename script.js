@@ -1,10 +1,1 @@
-function getDBid(id) {
-    if (typeof id === 'string') {
-        id.toLowerCase();
-    }
-    else {
-        id - 2;
-    }
-}
-getDBid(7);
-getDBid('7');
+var data = [1, 2, 3, 4, 5, 6, 7, 8, '4', true];
