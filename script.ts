@@ -1,8 +1,14 @@
-let student: [string, number, boolean]
+enum SeatChoice{
 
-student = ['Brian', 650396, false]
+    AISLE = 30,
+
+    MIDDLE,
+
+    WINDOW,
+
+    FOURTH
+
+}
 
 
-let rgb: [number, number, number]
-
-rgb = [256, 256, 256]
+const hcSeat = SeatChoice.AISLE
