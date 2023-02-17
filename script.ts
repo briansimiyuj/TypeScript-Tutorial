@@ -1,14 +1,35 @@
-enum SeatChoice{
+interface User{
 
-    AISLE = 30,
+    readonly DBID: number
 
-    MIDDLE,
+    email: string
 
-    WINDOW,
+    userID: number
 
-    FOURTH
+    googleID?: string
+
+    // startTrial: () => string       /* long way */
+
+    startTrial(): string
+    
 
 }
 
 
-const hcSeat = SeatChoice.AISLE
+const brian: User = {
+
+    email: 'brian@techfybiz.co.ke',
+
+    userID: 64267,
+    
+    DBID: 7533 ,
+
+    startTrial: () =>{
+
+        return 'Trial started'
+
+    }
+
+}
+
+
