@@ -23,7 +23,15 @@ interface User{
 }
 
 
-const brian: User = {
+
+interface Admin extends User{    
+
+    role: 'admin' | 'learner' | 'ta'
+
+}
+
+
+const brian: Admin = {
 
     email: 'brian@techfybiz.co.ke',
 
@@ -45,7 +53,10 @@ const brian: User = {
     },
 
 
-    githubToken: 'jhgvcn'
+    githubToken: 'jhgvcn',
+
+    role: 'admin'
+
     
 
 }

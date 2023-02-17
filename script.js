@@ -8,5 +8,6 @@ var brian = {
     getCoupon: function (name, off) {
         return 456;
     },
-    githubToken: 'jhgvcn'
+    githubToken: 'jhgvcn',
+    role: 'admin'
 };
