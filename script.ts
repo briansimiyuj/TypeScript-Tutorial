@@ -8,10 +8,9 @@ interface User{
 
     googleID?: string
 
-    // startTrial: () => string       /* long way */
-
     startTrial(): string
-    
+
+    getCoupon(couponName: string, discount: number): number
 
 }
 
@@ -28,7 +27,15 @@ const brian: User = {
 
         return 'Trial started'
 
+    },
+
+
+    getCoupon: (name: 'Brian',  off: 60) =>{
+
+        return 456
+
     }
+    
 
 }
 

@@ -4,5 +4,8 @@ var brian = {
     DBID: 7533,
     startTrial: function () {
         return 'Trial started';
+    },
+    getCoupon: function (name, off) {
+        return 456;
     }
 };
