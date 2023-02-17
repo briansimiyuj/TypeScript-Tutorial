@@ -15,13 +15,21 @@ interface User{
 }
 
 
+
+interface User{
+
+    githubToken: string
+
+}
+
+
 const brian: User = {
 
     email: 'brian@techfybiz.co.ke',
 
     userID: 64267,
     
-    DBID: 7533 ,
+    DBID: 7533,
 
     startTrial: () =>{
 
@@ -34,7 +42,10 @@ const brian: User = {
 
         return 456
 
-    }
+    },
+
+
+    githubToken: 'jhgvcn'
     
 
 }
