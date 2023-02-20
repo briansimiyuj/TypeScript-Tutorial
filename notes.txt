@@ -1,1 +1,1 @@
-One can reopen an interface 
+Private properties  can only be accessed within the class
