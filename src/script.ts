@@ -1,6 +1,6 @@
 class User{
 
-    readonly city: string = ''
+    readonly city: string = 'Nairobi'
 
     constructor(
         
@@ -10,9 +10,13 @@ class User{
 
         private userID: number
         
-    ){
+    ){}
 
-       
+
+
+    get getAppleEmail(): string{
+
+        return `apple${this.email}`
 
     }
 
