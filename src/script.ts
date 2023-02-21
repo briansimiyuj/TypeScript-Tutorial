@@ -1,16 +1,18 @@
 class User{
 
-    public email: string
+    readonly city: string = ''
 
-    name: string
+    constructor(
+        
+        public email: string,
+        
+        public name: string,
 
-    private readonly city: string = ''
+        private userID: number
+        
+    ){
 
-    constructor(email: string, name:string){
-
-        this.email = email
-
-        this.name = name
+       
 
     }
 
@@ -18,6 +20,6 @@ class User{
 
 
 
-const brian = new User('brian@techfybiz.co.ke', 'Brian')
+const brian = new User('brian@techfybiz.co.ke', 'Brian', 1234765)
 
 brian.email = 'briansimiyuj@gmail.com'
