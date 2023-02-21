@@ -15,6 +15,15 @@ class User{
     ){}
 
 
+    
+    
+    private deleteToken(token: string){
+
+        console.log('Token deleted')
+
+    }
+
+
 
     get getAppleEmail(): string{
 
@@ -41,7 +50,7 @@ class User{
         }
 
         this._courseCount = courseNumber
-        
+
     }
 
 }

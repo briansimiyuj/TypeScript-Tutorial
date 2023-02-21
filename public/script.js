@@ -7,6 +7,9 @@ class User {
         this._courseCount = 1;
         this.city = 'Nairobi';
     }
+    deleteToken(token) {
+        console.log('Token deleted');
+    }
     get getAppleEmail() {
         return `apple${this.email}`;
     }
