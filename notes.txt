@@ -1,1 +1,3 @@
-Private properties  can only be accessed within the class
+Public properties can be accessed anywhere as shown in script.ts
+
+All properties are public unless otherwise specified

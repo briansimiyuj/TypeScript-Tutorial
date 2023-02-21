@@ -1,6 +1,6 @@
 class User{
 
-    email: string
+    public email: string
 
     name: string
 
@@ -12,15 +12,12 @@ class User{
 
         this.name = name
 
-        this.city = 'Nairobi'
-
     }
 
 }
 
 
 
-
 const brian = new User('brian@techfybiz.co.ke', 'Brian')
 
-brian.city = 'Mombasa'
+brian.email = 'briansimiyuj@gmail.com'
