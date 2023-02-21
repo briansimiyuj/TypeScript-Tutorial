@@ -1,3 +1,1 @@
-Public properties can be accessed anywhere as shown in script.ts
-
-All properties are public unless otherwise specified
+Setter does not have a return type of annotation.
