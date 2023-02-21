@@ -57,6 +57,15 @@ class User{
 
 
 
+
+
+class SubUser extends User{
+
+    
+
+}
+
+
 const brian = new User('brian@techfybiz.co.ke', 'Brian', 1234765)
 
 brian.email = 'briansimiyuj@gmail.com'
