@@ -1,6 +1,6 @@
 class User{
 
-    private _courseCount = 1
+    protected _courseCount = 1
 
     readonly city: string = 'Nairobi'
 
@@ -61,7 +61,14 @@ class User{
 
 class SubUser extends User{
 
-    
+    isFamily: boolean = true
+
+
+    changeCourseCount(){
+
+        this._courseCount = 4
+
+    }
 
 }
 

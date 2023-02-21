@@ -24,6 +24,13 @@ class User {
     }
 }
 class SubUser extends User {
+    constructor() {
+        super(...arguments);
+        this.isFamily = true;
+    }
+    changeCourseCount() {
+        this._courseCount = 4;
+    }
 }
 const brian = new User('brian@techfybiz.co.ke', 'Brian', 1234765);
 brian.email = 'briansimiyuj@gmail.com';

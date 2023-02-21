@@ -1,1 +1,1 @@
-You can use extend to create a subClass with the same properties and methods as the parent class except for the private properties and methods
+A protected property or method can only be accessed within the class or its subClasses
