@@ -1,4 +1,4 @@
-abstract class TakePhoto{
+abstract class TakeVideo{
 
     constructor(
 
@@ -8,18 +8,49 @@ abstract class TakePhoto{
 
     ){}
 
+
+    abstract getSepia(): void 
+
+    getReelTime(): number{
+
+        // calculate reel time
+
+        return 0
+
+    }
+
 }
 
 
 
-class TikTok extends TakePhoto{
+class Facebook extends TakeVideo{
 
-    
+    constructor(
+
+        public cameraMode: string,
+        
+        public filter: string,
+
+        public burst: number
+
+    ){
+
+        super(cameraMode, filter)
+
+    }
+
+
+    getSepia(): void{
+
+        console.log('Sepia')
+
+    }
 
 }
 
 
 
-const simiyu = new TakePhoto('camera', 'photo')
+const simiyuBrian = new Facebook('video', 'audio', 5)
 
-const simiyuBrian = new TikTok('video', 'audio')
+
+simiyuBrian.getReelTime()
