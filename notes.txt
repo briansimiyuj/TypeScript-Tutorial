@@ -1,1 +1,1 @@
-A protected property or method can only be accessed within the class or its subClasses
+Abstract classes cannot create a new instance from it, except a subclass. Refer to abstractClass.ts ln 23 and 25
