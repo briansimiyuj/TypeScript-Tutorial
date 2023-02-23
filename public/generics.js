@@ -22,3 +22,8 @@ function getSearchProducts(products) {
     const myIndex = 3;
     return products[myIndex];
 }
+const getMoreSearchProducts = (products) => {
+    // Do some database queries
+    const myIndex = 4;
+    return products[myIndex];
+};
