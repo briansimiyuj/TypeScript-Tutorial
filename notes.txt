@@ -1,1 +1,1 @@
-Abstract classes cannot create a new instance from it, except a subclass. Refer to abstractClass.ts ln 23 and 25
+Read more about generics on https://www.typescriptlang.org/docs/handbook/2/generics.html

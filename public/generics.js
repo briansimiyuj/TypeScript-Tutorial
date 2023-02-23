@@ -17,3 +17,8 @@ function identityFour(val) {
     return val;
 }
 identityFour({ brand: 'CocaCola', type: 'Fanta' });
+function getSearchProducts(products) {
+    // Do some database queries
+    const myIndex = 3;
+    return products[myIndex];
+}

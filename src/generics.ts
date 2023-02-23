@@ -56,3 +56,19 @@ interface Bottle{
 
 
 identityFour<Bottle>({brand: 'CocaCola', type: 'Fanta'})
+
+
+
+
+
+
+function getSearchProducts<T>(products: T[]):T{
+
+    // Do some database queries
+
+    const myIndex = 3
+
+   return products[myIndex]
+   
+
+}
