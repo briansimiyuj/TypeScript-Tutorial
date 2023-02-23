@@ -41,3 +41,18 @@ function identityFour<T>(val: T):T{
     return val
 
 }
+
+
+
+
+
+interface Bottle{
+
+    brand: string,
+
+    type: string
+
+}
+
+
+identityFour<Bottle>({brand: 'CocaCola', type: 'Fanta'})

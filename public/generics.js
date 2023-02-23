@@ -16,3 +16,4 @@ identityThree(true);
 function identityFour(val) {
     return val;
 }
+identityFour({ brand: 'CocaCola', type: 'Fanta' });
