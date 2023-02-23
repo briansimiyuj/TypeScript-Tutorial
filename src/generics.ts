@@ -33,3 +33,11 @@ identityThree(3)
 identityThree('Hello')
 
 identityThree(true)
+
+
+
+function identityFour<T>(val: T):T{
+
+    return val
+
+}

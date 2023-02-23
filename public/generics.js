@@ -13,3 +13,6 @@ function identityThree(val) {
 identityThree(3);
 identityThree('Hello');
 identityThree(true);
+function identityFour(val) {
+    return val;
+}
