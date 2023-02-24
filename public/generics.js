@@ -33,4 +33,4 @@ function anotherFunction(valOne, valTwo) {
         valTwo
     };
 }
-anotherFunction(45, 'hello');
+anotherFunction(45, { connection: 'mysql', username: 'root', password: 'root' });

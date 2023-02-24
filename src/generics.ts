@@ -76,6 +76,19 @@ function getSearchProducts<T>(products: T[]):T{
 
 
 
+interface Database{
+
+    connection: string,
+
+    username: string,
+    
+    password: string
+
+}
+
+
+
+
 
 const getMoreSearchProducts = <T>(products: T[]): T =>{
 
@@ -91,7 +104,7 @@ const getMoreSearchProducts = <T>(products: T[]): T =>{
 
 
 
-function anotherFunction<T, U>(valOne:T, valTwo:U):object{
+function anotherFunction<T, U extends Database>(valOne:T, valTwo:U):object{
 
    return{
 
@@ -104,4 +117,4 @@ function anotherFunction<T, U>(valOne:T, valTwo:U):object{
 }
 
 
-anotherFunction(45, 'hello')
+anotherFunction(45, {connection: 'mysql', username: 'root', password: 'root'})
