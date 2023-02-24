@@ -34,3 +34,11 @@ function anotherFunction(valOne, valTwo) {
     };
 }
 anotherFunction(45, { connection: 'mysql', username: 'root', password: 'root' });
+class Sellable {
+    constructor() {
+        this.cart = [];
+    }
+    addToCart(product) {
+        this.cart.push(product);
+    }
+}
