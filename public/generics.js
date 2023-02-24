@@ -27,3 +27,10 @@ const getMoreSearchProducts = (products) => {
     const myIndex = 4;
     return products[myIndex];
 };
+function anotherFunction(valOne, valTwo) {
+    return {
+        valOne,
+        valTwo
+    };
+}
+anotherFunction(45, 'hello');
