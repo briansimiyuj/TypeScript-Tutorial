@@ -1,1 +1,1 @@
-Read more about generics on https://www.typescriptlang.org/docs/handbook/2/generics.html
+Read more about Type Narrowing on https://www.typescriptlang.org/docs/handbook/2/narrowing.html
